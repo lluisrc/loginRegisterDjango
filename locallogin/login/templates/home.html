@@ -1,0 +1,9 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<span id="helloMsg">Hello{{request.user}}</span>
+<span><a href="{% url 'logout' %}">LogOut</a></span>
+    <p>Hola este es el home</p>
+
+{% endblock %}
+
